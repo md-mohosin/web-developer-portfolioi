@@ -1,0 +1,118 @@
+.header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px;
+}
+
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+}
+
+.secondary-bg {
+    background-color: rgb(255, 248, 243);
+}
+
+.btn {
+    background-color: rgb(253, 110, 10);
+    font-size: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.nav-title {
+    font-size: 45px;
+}
+
+span {
+    color: rgb(253, 110, 10);
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 200px;
+
+}
+
+.image {
+    width: 580px;
+}
+
+.about {
+    border-radius: 10px;
+    padding: 80px 100px;
+    text-align: center;
+    margin: 130px 0;
+}
+
+.skills-content {
+    text-align: center;
+}
+
+.section-title {
+    font-size: 34px;
+    font-weight: bold;
+
+}
+
+main {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    font-weight: bold;
+}
+
+.skills {
+    display: flex;
+    gap: 40px;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.skills-box{
+    box-shadow: 0px 0px 5px 1px;
+    padding: 30px;
+}
+
+.what-do{
+    margin: 80px 100px;
+}
+
+.resume-title{
+    text-align: center;
+}
+
+.resume{
+    display: flex;
+    gap: 35px;
+}
